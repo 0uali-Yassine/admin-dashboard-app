@@ -1,0 +1,31 @@
+@media only screen and (0px <= width <= 889px) {
+    .sidebar{
+        display: none;
+    }
+   
+    .menuIcon{
+        display: block;
+    }
+
+    .listcontainer{
+        width: 80%;
+        padding: 0;
+
+        
+    }
+    .table{
+        width: 100%;
+    }
+
+    .wrapper{
+        justify-content: flex-start;
+    }
+
+    
+}
+@media only screen and (889px <= width <= 10050px) {
+    
+    .menuIcon{
+        display: none;
+    }
+}
